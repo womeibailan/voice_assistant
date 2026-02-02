@@ -1,0 +1,29 @@
+# Arduino项目忽略文件
+
+# 编译产物
+build/
+*.o
+*.elf
+*.hex
+*.bin
+*.d
+
+# 临时文件
+*.tmp
+*.temp
+
+# IDE文件
+.vscode/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 配置文件（可选，如果你不想提交敏感信息）
+# config.h
+
+# 测试文件（可选，如果你想单独管理测试）
+# test/
