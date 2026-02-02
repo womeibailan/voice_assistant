@@ -6,7 +6,9 @@
 #define WIFI_PASSWORD "bjhongjidian123"
 
 // 阿里云API配置
-#define ALIYUN_API_KEY "sk-cf459e8638fb492d8ecc9b4b3e4ad716"
+#ifndef ALIYUN_API_KEY
+  #define ALIYUN_API_KEY "your api key"
+#endif
 
 // 阿里云服务API URL
 #define ALIYUN_ASR_API_URL "https://dashscope.aliyuncs.com/api/v1/services/audio/asr/transcription"
